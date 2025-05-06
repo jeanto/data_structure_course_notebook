@@ -280,7 +280,7 @@ void imprime_lista(Lista* li){
  * @return int Retorna 1 se o elemento foi removido com sucesso, ou 0 caso
  * a lista esteja vazia ou o elemento não seja encontrado.
  */
-int remove_lista(Lista* li, int mat){
+int remove_lista_mat(Lista* li, int mat){
     return 0;
 }
 
