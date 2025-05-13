@@ -197,7 +197,7 @@ int main() {
 
                 if (valida_matricula){
                     if (matricula >= 0){     
-                        if (busca_lista_mat(li, matricula, &aluno_encontrado)){
+                        if (busca_lista_mat(li, matricula, &elemento_encontrado)){
                             system(LIMPAR_TELA);
                             imprime_aluno(&elemento_encontrado->dados);
                         } else {
@@ -215,7 +215,7 @@ int main() {
 
                 if (valida_posicao){
                     if (posicao >= 0){     
-                        if (busca_lista_pos(li, posicao, &aluno_encontrado)){
+                        if (busca_lista_pos(li, posicao, &elemento_encontrado)){
                             system(LIMPAR_TELA);
                             imprime_aluno(&elemento_encontrado->dados);
                         } else {
