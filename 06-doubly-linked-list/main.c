@@ -208,7 +208,7 @@ int main() {
                     }
                 }
             }
-            else if (opcao_buscar == 2){
+            else if (opcao_buscar == 2){ 
                 int posicao;
                 printf("Digite a posicao do aluno: ");
                 int valida_posicao = scanf("%d", &posicao);
